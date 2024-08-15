@@ -19,14 +19,16 @@
             "180g-250g": 200
         },
         "comercial": {
-            "75g": 50
+            "75g": 50,
+            "80g-90g": 50
         },
         "adhesivo": {
-            "75g": 170
+            "75g": 170,
+            "80g-90g": 170
         }
     },
-    "tinta": {
-        "blackAndWhite": 8,
+    "costoTinta": {
+        "blancoNegro": 8,
         "color": {
             "10": 30,
             "50": 50,
@@ -34,7 +36,7 @@
         }
     },
     "margenGanancia": {
-        "blackAndWhite": {
+        "blancoNegro": {
             "1": 7,
             "2": 5,
             "3-9": 3,
