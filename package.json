@@ -2,12 +2,11 @@
   "name": "beep-system-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "./api/index.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon ./api/index.js",
-    "start": "nodemon ./api/index.js",
-    "vercel-build": "echo hello"
+    "dev": "nodemon index.js",
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
