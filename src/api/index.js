@@ -1,8 +1,8 @@
 import cors from "cors";
 import express from "express";
-import salesRoutes from "./routes/sales.routes.js";
-import budgetsRoutes from "./routes/budgets.routes.js";
-import configRoutes from "./routes/config.routes.js";
+import salesRoutes from "../routes/sales.routes.js";
+import budgetsRoutes from "../routes/budgets.routes.js";
+import configRoutes from "../routes/config.routes.js";
 
 const app = express();
 
