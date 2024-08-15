@@ -1,14 +1,11 @@
-{ "version": 2, "rewrites": [{ "source": "/(.*)", "destination": "/api" , "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/",
-            "methods": [
-                "GET",
-                "POST",
-                "PUT",
-                "PATCH",
-                "DELETE",
-                "OPTIONS"
-            ]
-        }
-    ]}] }
+{
+  "version": 2,
+  "rewrites": [{ "source": "/(.*)", "destination": "/api" }],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/",
+      "methods": ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"]
+    }
+  ]
+}
